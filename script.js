@@ -67,5 +67,7 @@ document.getElementById('newBookForm').addEventListener('submit', function(event
     displayBooks();
 });
 
-
+addBookToLibrary("1984", "George Orwell", 328, true);
+addBookToLibrary("To Kill a Mockingbird", "Harper Lee", 281, false);
+addBookToLibrary("The Great Gatsby", "F. Scott Fitzgerald", 180, true);
 displayBooks();
